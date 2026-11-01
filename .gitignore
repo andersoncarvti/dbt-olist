@@ -1,0 +1,13 @@
+# Ambiente Python
+.venv/
+__pycache__/
+
+# Gerados pelo dbt
+target/
+dbt_packages/
+logs/
+
+# Segredos
+.env
+*.json
+.user.yml
